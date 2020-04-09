@@ -6,6 +6,7 @@
 
     <mat-tab-group mat-stretch-tabs class="stretched-tabs mat-elevation-z4">
       <mat-tab label="Agregar" >
+
         <div class="form-group1" [formGroup]="addForm" align="left"  >
           <div class="labelName">
             Nombre:
@@ -35,7 +36,7 @@
                 <button type="button" class="btn btn-success" >Agregar</button>
               </div>
               <div class="col-md-3">
-                <button type="button" class="btn btn-danger">Cancelar</button>
+                <button type="button" class="btn btn-danger" (click)="exit()">Cancelar</button>
               </div>
 
             </div>

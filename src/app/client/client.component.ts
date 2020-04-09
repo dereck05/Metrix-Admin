@@ -30,4 +30,7 @@ export class ClientComponent implements OnInit {
   }
 
 
+  exit() {
+    window.location.reload();
+  }
 }
