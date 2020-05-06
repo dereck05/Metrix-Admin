@@ -1,0 +1,26 @@
+
+
+<mat-expansion-panel>
+  <mat-expansion-panel-header>
+    <mat-panel-title>
+      {{entrega.nombre}}
+    </mat-panel-title>
+
+  </mat-expansion-panel-header>
+  <div class="col-4">
+    <ngb-timepicker [(ngModel)]="time" [meridian]="meridian"></ngb-timepicker>
+  </div>
+  <div class="col-4">
+    <mat-form-field>
+      <mat-label>Fecha Envio</mat-label>
+      <input matInput [matDatepicker]="pickerEntregaIni">
+      <mat-datepicker-toggle matSuffix [for]="pickerEntregaIni"></mat-datepicker-toggle>
+      <mat-datepicker #pickerEntregaIni></mat-datepicker>
+    </mat-form-field>
+  </div>
+  <div class="col-4">
+  </div>
+
+</mat-expansion-panel>
+
+

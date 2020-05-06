@@ -1,0 +1,53 @@
+.example-stretched-tabs {
+  max-width: 800px;
+}
+.container{
+  /*padding-top: 50px;*/
+  padding-bottom: 5%;
+}
+
+h1{
+  text-align: center;
+  font-size:30px;
+  margin:0;
+
+  /*padding-top: 30px;*/
+}
+div.form-group1{
+  /*padding-top: 50px;*/
+  padding-left: 20px;
+}
+
+div.labelName, div.labelDesc,div.labelImg{
+  padding-bottom: 20px;
+}
+
+
+
+input{
+  width: 400px;
+  font-family: "Arial";
+}
+div.buttons{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+div.search-container{
+  padding-top: 30px;
+}
+table {
+  width: 90%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 90%;
+}
+
+td, th {
+  width: 25%;
+}
+div.btn-procesar{
+  padding-top: 5%;
+}

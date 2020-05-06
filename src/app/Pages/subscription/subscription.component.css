@@ -2,20 +2,21 @@
   max-width: 800px;
 }
 .container{
-  padding-top: 50px;
+  padding-bottom: 5%;
 }
 
 h1{
   text-align: center;
   font-size:30px;
-  padding-top: 30px;
+  margin:0;
+  /*padding-top: 30px;*/
 }
 div.form-group1{
-  padding-top: 50px;
+  /*padding-top: 50px;*/
   padding-left: 20px;
 }
 
-div.labelName, div.labelDesc,div.labelImg{
+div.labelName{
   padding-bottom: 20px;
 }
 
@@ -28,5 +29,26 @@ input{
 div.buttons{
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+div.search-container{
+  padding-top: 30px;
+}
+table {
+  width: 90%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 90%;
+}
+
+td, th {
+  width: 25%;
+}
+
+
+button{
+  margin:5px 5px 5px 5px;
 }
 

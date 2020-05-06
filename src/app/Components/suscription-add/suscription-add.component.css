@@ -1,0 +1,20 @@
+h1{
+  text-align: center;
+  font-size:25px;
+  margin:0;
+}
+
+mat-card{
+  background-color: lightgray;
+
+}
+.close.mat-mini-fab{
+  top: 0;
+  right: 0;
+}
+.mat-form-field{
+  justify-content: center;
+  padding-bottom: 10%;
+}
+
+
